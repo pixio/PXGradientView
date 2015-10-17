@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "PXGradientView"
   s.version          = "0.1.2"
-  s.summary          = "It's a gradient.  It's easy.'"
+  s.summary          = "It's a gradient.  It's easy."
   s.description      = <<-DESC
                        A view that allows you to create a gradient with as little as one line of code.
                        DESC

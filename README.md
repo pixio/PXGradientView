@@ -6,7 +6,7 @@
 
 ## Usage
 
-It's a gradeint without all the hassle of CAGradientLayer.  Try just making one with one of the default gradient and seeing what it looks like.
+It's a gradient without all the hassle of CAGradientLayer.  Try just making one with one of the default gradient and seeing what it looks like.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
