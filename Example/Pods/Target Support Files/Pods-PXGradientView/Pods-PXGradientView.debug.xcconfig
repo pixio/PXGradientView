@@ -1,6 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PXGradientView" "${PODS_ROOT}/Headers/Public/UIColor-MoreColors"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/PXGradientView" -isystem "${PODS_ROOT}/Headers/Public/UIColor-MoreColors"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-PXGradientView-PXGradientView" -l"Pods-PXGradientView-UIColor-MoreColors" -framework "UIKit"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+OTHER_LDFLAGS = $(inherited) -ObjC -l"PXGradientView" -l"UIColor-MoreColors" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods
