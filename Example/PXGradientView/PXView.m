@@ -39,14 +39,13 @@
 
     _gradientView = [[PXGradientView alloc] initWithDefaultGradient:PXDefaultGradientDown];
     [_gradientView setTranslatesAutoresizingMaskIntoConstraints:FALSE];
-//    [_gradientView setGradientColors:@[[UIColor colorWithRed:0.333 green:0.937 blue:0.796 alpha:1.0], [UIColor colorWithRed:0.357 green:0.792 blue:1.0 alpha:1.0]]];
     [_gradientView setGradientColors:@[[UIColor redColor], [UIColor greenColor], [UIColor blueColor]]];
     [_gradientView setLocations:@[@0.1, @0.2]];
     [self addSubview:_gradientView];
 
     _switcherButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [_switcherButton setTranslatesAutoresizingMaskIntoConstraints:FALSE];
-    [_switcherButton setTitleEdgeInsets:UIEdgeInsetsMake(5, 5, 5, 5)];
+    [_switcherButton setTitleEdgeInsets:UIEdgeInsetsMake(5.0f, 5.0f, 5.0f, 5.0f)];
     [_switcherButton setBackgroundColor:[UIColor colorWithWhite:0.9 alpha:1.0]];
     [_switcherButton setTitle:@"Switch Gradient" forState:UIControlStateNormal];
     [_switcherButton addTarget:self action:@selector(switchGradientType) forControlEvents:UIControlEventTouchUpInside];
