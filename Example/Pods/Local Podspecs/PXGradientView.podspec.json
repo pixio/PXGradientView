@@ -1,27 +1,22 @@
 {
   "name": "PXGradientView",
-  "version": "0.1.0",
-  "summary": "It's a gradient.  It's easy.'",
-  "description": "                       What do you want me to say?\n",
-  "homepage": "https://git.pixio.com/",
+  "version": "0.1.2",
+  "summary": "It's a gradient.  It's easy.",
+  "description": "A view that allows you to create a gradient with as little as one line of code.",
+  "homepage": "https://github.com/pixio/PXGradientView/",
   "license": "MIT",
   "authors": {
     "Daniel Blakemore": "DanBlakemore@gmail.com"
   },
   "source": {
-    "git": "git@git.pixio.com:ios-pods/pxgradientview.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pixio/PXGradientView.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "GradientView": [
-      "Pod/Assets/*.png"
-    ]
-  },
   "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
