@@ -1,0 +1,6 @@
+framework module PXGradientView {
+  umbrella header "PXGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

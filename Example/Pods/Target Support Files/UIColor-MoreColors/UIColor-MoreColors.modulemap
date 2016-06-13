@@ -1,0 +1,6 @@
+framework module UIColor_MoreColors {
+  umbrella header "UIColor-MoreColors-umbrella.h"
+
+  export *
+  module * { export * }
+}

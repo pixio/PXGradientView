@@ -1,6 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/PXGradientView" "$PODS_CONFIGURATION_BUILD_DIR/UIColor-MoreColors"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PXGradientView" "${PODS_ROOT}/Headers/Public/UIColor-MoreColors"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/PXGradientView" -isystem "${PODS_ROOT}/Headers/Public/UIColor-MoreColors"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-PXGradientView-PXGradientView" -l"Pods-PXGradientView-UIColor-MoreColors" -framework "UIKit"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/PXGradientView/PXGradientView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIColor-MoreColors/UIColor_MoreColors.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "PXGradientView" -framework "UIColor_MoreColors"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

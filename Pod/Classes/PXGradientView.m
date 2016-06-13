@@ -26,7 +26,7 @@
 
 #import "PXGradientView.h"
 
-#import <UIColor-MoreColors/UIColor+MoreColors.h>
+@import UIColor_MoreColors;
 
 @implementation PXGradientView
 {

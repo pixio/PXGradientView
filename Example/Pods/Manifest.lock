@@ -1,5 +1,5 @@
 PODS:
-  - PXGradientView (0.1.0):
+  - PXGradientView (0.1.2):
     - UIColor-MoreColors
   - UIColor-MoreColors (1.0.3)
 
@@ -11,7 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXGradientView: 32d493956e257423e6de46071514e813ac606680
+  PXGradientView: 7ae150a5fac952c322886978a5922275440f60e1
   UIColor-MoreColors: f05e23f1f9067550ffd5a369479b8cf294d34097
 
-COCOAPODS: 0.36.4
+PODFILE CHECKSUM: 52fcec948a8222aba8e8f739e01e372a48d6d75a
+
+COCOAPODS: 1.0.1

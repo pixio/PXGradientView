@@ -1,11 +1,13 @@
 source 'git@git.pixio.com:pixio-libraries/specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'PXGradientView', :exclusive => true do
+use_frameworks!
+
+target 'PXGradientView' do
   pod "PXGradientView", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "PXGradientView", :path => "../"
 
 

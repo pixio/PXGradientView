@@ -10,6 +10,10 @@ It's a gradient without all the hassle of CAGradientLayer.  Try just making one 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Requirements
+
+This pod requires iOS 8.0 and `!use_frameworks`.
+
 ## Installation
 
 PXGradientView is available through [CocoaPods](http://cocoapods.org). To install
