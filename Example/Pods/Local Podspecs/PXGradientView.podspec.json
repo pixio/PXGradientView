@@ -1,6 +1,6 @@
 {
   "name": "PXGradientView",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "summary": "It's a gradient.  It's easy.",
   "description": "A view that allows you to create a gradient with as little as one line of code.",
   "homepage": "https://github.com/pixio/PXGradientView/",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/pixio/PXGradientView.git",
-    "tag": "0.1.2"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "7.0"

@@ -15,6 +15,11 @@
 
 @implementation PXViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (PXView*)contentView
 {
     return (PXView*)[self view];

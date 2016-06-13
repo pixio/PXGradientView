@@ -7,170 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AAB92FAD6D81EF0D06AA4B09E8D04EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
-		3F27FAAF56D95AA42449A89B392EF4B8 /* UIColor+MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7120F79D4CC609C2022A3C57B0907F74 /* UIColor+MoreColors.m */; };
-		3F94C7063DBD13FF2ECCF000D8AAFC4C /* PXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F9E3E831989FBC9A1F891B16F7D4B /* PXGradientView.m */; };
-		4B883AB0FAF0BCB9E92F5748A2E9B6F6 /* Pods-PXGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A1E72C4DBD507CCC5A733CB47A8C96 /* Pods-PXGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51276BF41B27435D9F6BD8110AFF038F /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4080038A3112F65B8FA1EC8E6DD /* Pods-Tests-dummy.m */; };
-		6691D329010EA3DC34432B657D00060C /* UIColor_MoreColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8234EB2F3CD8D85BBFA7591A451FEF3 /* UIColor_MoreColors.framework */; };
-		77CE9551D3D48E8A7F1DDD5C09504E07 /* PXGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28546E9F2C151FCA8800585ED7394B76 /* PXGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E39F0F0B4B103FAEA65E36B04BFF8FC /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3CD3E5FC0F8E9143159554E333BD14 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81181D5372CA7BBAB9FC0E2E0E24299E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
-		815EB018BDECAE837868B532A341B6C2 /* UIColor+MoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B907FD59260F00B1073983FABBDECB1F /* UIColor+MoreColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		863A94451DC626B317B51CDCC3E7CFB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
-		87F33B9BDC907AE38A80FC6FB840E2BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
-		8A0106461ED2BE0EAEA8F06D6C4F933E /* PXGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FA851B4EE6DD9FC9D566F76BBB3966 /* PXGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A68070196E7BBD4767174D890BDE95DB /* UIColor-MoreColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB4B54C9F00D710EA50CEA87E06C629 /* UIColor-MoreColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8C1BA1C74A55960FDC6BF626504239B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
-		CEA772C4AC97879988F2F851E08847C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
-		E73AF775D48EA61BE678D321CC80C1D3 /* PXGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883545568C2184DC130BE0DD70921F95 /* PXGradientView-dummy.m */; };
-		F1132D78852A0C71FC7F18EC63C14E1A /* Pods-PXGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828E883F3980D602894383DE56633861 /* Pods-PXGradientView-dummy.m */; };
-		F6A2BADFE0F8BA8AD13856ABDE4606A9 /* UIColor-MoreColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D23275AA77A872F4576F67242FBDF3E /* UIColor-MoreColors-dummy.m */; };
+		1470743026EAA2DD8756A9CC2CCA86B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		157481292DA70814CE1C0512606D05F0 /* UIColor_MoreColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8234EB2F3CD8D85BBFA7591A451FEF3 /* UIColor_MoreColors.framework */; };
+		1ADF6BC3F8952E531E14473E02203238 /* UIColor+MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E558B7084C6A81DF338DFB1126A1A8 /* UIColor+MoreColors.m */; };
+		268753416D9C6239FD71B585F0E373A9 /* PXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6152E8D5EC910B50E6880E1D4DFE5AA /* PXGradientView.m */; };
+		3946A36138269BD51DF3F11AE0C569FC /* Pods-PXGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A1E72C4DBD507CCC5A733CB47A8C96 /* Pods-PXGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40481A89353B8ECEA85C08C940B7D54D /* UIColor_MoreColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8234EB2F3CD8D85BBFA7591A451FEF3 /* UIColor_MoreColors.framework */; };
+		503A2B7487468C7973888BF0EA842388 /* UIColor+MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E558B7084C6A81DF338DFB1126A1A8 /* UIColor+MoreColors.m */; };
+		50C1E6C0A95E4526319D22FE287F9E78 /* UIColor+MoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 323939E25CCFE554CF55E32161AAB83D /* UIColor+MoreColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51352A23976840BE2C7B86B3066B77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		520E8D82F0F52FBBE155EFACEEB9F6C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		57599A59E81A93EA4AFF25D393CA83D3 /* UIColor-MoreColors-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D840FB5225B411BA4DF2D5DA0EFC47 /* UIColor-MoreColors-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6008B12D7977D66CB0CCB23EA908129A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		61609A8FF38F016F2B27C5B4638F364C /* PXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6152E8D5EC910B50E6880E1D4DFE5AA /* PXGradientView.m */; };
+		68C58D5C01CF327C29A0AA029811599B /* UIColor-MoreColors-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926EC888A509F393993E4FAA5B16FAD5 /* UIColor-MoreColors-iOS7.1-dummy.m */; };
+		6D31ADB82A75DC8BB3E128A44ED27D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
+		7E65B092C6E1F2E0D2A9901E9F53E432 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3CD3E5FC0F8E9143159554E333BD14 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829181D23D066B361BCF91742C1FC9A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
+		85D94B654D33F8052283E767393BD84F /* Pods-PXGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828E883F3980D602894383DE56633861 /* Pods-PXGradientView-dummy.m */; };
+		8662CA2BDCB13931A5D8541511C614B8 /* PXGradientView-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBB29CADED338194BED33A2E716EC1 /* PXGradientView-iOS7.1-dummy.m */; };
+		91A53FE4F2CBE73D96431946F4825716 /* PXGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C83DF5F4F46ED60A4AA8BE466FAD6DB /* PXGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D0615BB40B7C49ED86876FE9A3A200 /* UIColor-MoreColors-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D18717331D4D84D6E35EC2B6D6FFE51 /* UIColor-MoreColors-iOS8.0-dummy.m */; };
+		99CFA5C4E50C1443BA4667E874A30807 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
+		9AD3C56C960B7FF34BCF56BB9A5EB343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */; };
+		A0A9C999F89C21DDE2D7AF9993C9BA67 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B4080038A3112F65B8FA1EC8E6DD /* Pods-Tests-dummy.m */; };
+		AA66328404F7D1106C686139B220C01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		ADC0237646FB66CACD9D10A6DE22EA4C /* PXGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C83DF5F4F46ED60A4AA8BE466FAD6DB /* PXGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5993B0B056D4136D759013186C07645 /* UIColor-MoreColors-iOS7.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 243653BB9D79A5FA39A5FB849BD87ADF /* UIColor-MoreColors-iOS7.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC32E2698C096770AAE98FB7A5A26655 /* PXGradientView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDFCB81C506C29B3EF2A81E0D44C4E0 /* PXGradientView-iOS8.0-dummy.m */; };
+		C1EACD9A5AA6A053FF52AC22A131FFDE /* PXGradientView-iOS7.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0028BAFB8E2595958633F6DB5DE995A /* PXGradientView-iOS7.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D34660E07D68F99FC6AFCF24FA964A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */; };
+		CBBB137F51B68406555846F993C67081 /* UIColor+MoreColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 323939E25CCFE554CF55E32161AAB83D /* UIColor+MoreColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9DEAB55FC861B089D94607645B0A9A /* PXGradientView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E51212DBA760F8F6E93096E2E021AD9 /* PXGradientView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68A81168C5B3576A818FDE63297FFBDC /* PBXContainerItemProxy */ = {
+		126D053F457BC1E472FF469FB98F5393 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4C7BABCFD184613971D9C304D4CBDBB;
-			remoteInfo = PXGradientView;
+			remoteGlobalIDString = 9EA9A554F7857A62D569F8DDA8B85F60;
+			remoteInfo = "UIColor-MoreColors-iOS8.0";
 		};
-		69C23FF8500989509A17EFCE73010193 /* PBXContainerItemProxy */ = {
+		49C1E6AE7A969B98B5794A401F553C62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 754B2D37A00235F3DDB22C1451314ACC;
-			remoteInfo = "UIColor-MoreColors";
+			remoteGlobalIDString = 9EA9A554F7857A62D569F8DDA8B85F60;
+			remoteInfo = "UIColor-MoreColors-iOS8.0";
 		};
-		7EFBEDCEE7213163E090A7BA19873A52 /* PBXContainerItemProxy */ = {
+		769A62F73C8CC9FB94C8E48FCAA0BF85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 754B2D37A00235F3DDB22C1451314ACC;
-			remoteInfo = "UIColor-MoreColors";
+			remoteGlobalIDString = 9EA9A554F7857A62D569F8DDA8B85F60;
+			remoteInfo = "UIColor-MoreColors-iOS8.0";
 		};
-		9E19B304D68E8FBD36CCEFA4EEAAD980 /* PBXContainerItemProxy */ = {
+		78A5F79F3876717F921BA029C7999DA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4C7BABCFD184613971D9C304D4CBDBB;
-			remoteInfo = PXGradientView;
+			remoteGlobalIDString = 71FC1EFD7132AF010E596EA187577DAB;
+			remoteInfo = "UIColor-MoreColors-iOS7.1";
 		};
-		BABF63393E0DD7BF0133F4CF2E493AC7 /* PBXContainerItemProxy */ = {
+		812AA5E76A5AE58A0D9E4EC00EED6597 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 754B2D37A00235F3DDB22C1451314ACC;
-			remoteInfo = "UIColor-MoreColors";
+			remoteGlobalIDString = E470BA050A8CA3AE2E7C17675C940B2D;
+			remoteInfo = "PXGradientView-iOS7.1";
+		};
+		C478E294A72FACD3032D6E4EEFCAABF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39A6950EA99780A3BDE1A86B06C7325;
+			remoteInfo = "PXGradientView-iOS8.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01A4642B077CDAFA713561594CFF300E /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		03FA851B4EE6DD9FC9D566F76BBB3966 /* PXGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXGradientView.h; sourceTree = "<group>"; };
-		0DA05D64F6F8AA351F4D2601EEC8D280 /* PXGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PXGradientView.modulemap; sourceTree = "<group>"; };
+		08ECD4D830A471613ACF434D684BC4DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BA0C4D0C207F4CF98F59A90BC5782A /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1574C5B898A96DDFC44376262CAB9546 /* Pods_PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A93127C34EF7FEB37D371FA4DC71F5D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AD74DC497E253FE76A1A5B7AF3AF560 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		28546E9F2C151FCA8800585ED7394B76 /* PXGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXGradientView-umbrella.h"; sourceTree = "<group>"; };
-		2AD16DD0F8B5ECABFC6B126D3D111021 /* UIColor_MoreColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_MoreColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E558B7084C6A81DF338DFB1126A1A8 /* UIColor+MoreColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MoreColors.m"; sourceTree = "<group>"; };
+		243653BB9D79A5FA39A5FB849BD87ADF /* UIColor-MoreColors-iOS7.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-MoreColors-iOS7.1-umbrella.h"; sourceTree = "<group>"; };
+		24BE17F82B5302B52905CA88C8FA5977 /* UIColor-MoreColors-iOS7.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor-MoreColors-iOS7.1.modulemap"; sourceTree = "<group>"; };
+		26584E0E2C066B99F2FC5D919E2114C6 /* UIColor-MoreColors-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor-MoreColors-iOS8.0-prefix.pch"; path = "../UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		26BA9F0E69055166738E06AC9EBCDA0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../UIColor-MoreColors-iOS8.0/Info.plist"; sourceTree = "<group>"; };
+		2F07672B110D2CC41CD93C04A6A9B854 /* UIColor-MoreColors-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "UIColor-MoreColors-iOS8.0.modulemap"; path = "../UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		323939E25CCFE554CF55E32161AAB83D /* UIColor+MoreColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MoreColors.h"; sourceTree = "<group>"; };
 		352B4B0213E404EE2DE5C1A41877E0FA /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A13EBFB256605E8228A21496C5CC895 /* UIColor_MoreColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_MoreColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DEE09DDB3A6C35A1A9E021D8AF652C /* UIColor-MoreColors-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-MoreColors-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
+		4548FE796CDAE4826D116803534DEE5A /* UIColor_MoreColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_MoreColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C83DF5F4F46ED60A4AA8BE466FAD6DB /* PXGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXGradientView.h; sourceTree = "<group>"; };
 		4E152810607002C05A68B782D0C4D019 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDB427A2C2B0F4E499D4D80F52BC071 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D8BE8441099EC420E91E97657AE3E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		528A738031BC351DB1456110C0D70046 /* Pods-PXGradientView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXGradientView-resources.sh"; sourceTree = "<group>"; };
-		52927976B6896CF130A4470FA72F5723 /* Pods_PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57040ED99BE148AE69FD7C237DD13799 /* UIColor-MoreColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-MoreColors-prefix.pch"; sourceTree = "<group>"; };
+		5AFBB29CADED338194BED33A2E716EC1 /* PXGradientView-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXGradientView-iOS7.1-dummy.m"; sourceTree = "<group>"; };
 		5CB57542CC763C689D83E1BDF482C786 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		671F6153840834B17112DAA7E10A7581 /* UIColor-MoreColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor-MoreColors.modulemap"; sourceTree = "<group>"; };
-		7120F79D4CC609C2022A3C57B0907F74 /* UIColor+MoreColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MoreColors.m"; sourceTree = "<group>"; };
-		71C65A81B012465C8C242C539F691D94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18717331D4D84D6E35EC2B6D6FFE51 /* UIColor-MoreColors-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor-MoreColors-iOS8.0-dummy.m"; path = "../UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		6E51212DBA760F8F6E93096E2E021AD9 /* PXGradientView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXGradientView-iOS8.0-umbrella.h"; path = "../PXGradientView-iOS8.0/PXGradientView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		6E742D62F35B59A66DBEA1ECD7E93FEB /* PXGradientView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "PXGradientView-iOS8.0.modulemap"; path = "../PXGradientView-iOS8.0/PXGradientView-iOS8.0.modulemap"; sourceTree = "<group>"; };
 		73A7552C5E90DB80F23855D8D33934FC /* Pods-PXGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXGradientView.modulemap"; sourceTree = "<group>"; };
 		758C28E96556FFEC87C99E0BF55EBEF0 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D23275AA77A872F4576F67242FBDF3E /* UIColor-MoreColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-MoreColors-dummy.m"; sourceTree = "<group>"; };
+		7DDFCB81C506C29B3EF2A81E0D44C4E0 /* PXGradientView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PXGradientView-iOS8.0-dummy.m"; path = "../PXGradientView-iOS8.0/PXGradientView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
 		828E883F3980D602894383DE56633861 /* Pods-PXGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXGradientView-dummy.m"; sourceTree = "<group>"; };
-		875E18B4421BEF020EDCF0A0A09FDDD8 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		883545568C2184DC130BE0DD70921F95 /* PXGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXGradientView-dummy.m"; sourceTree = "<group>"; };
+		82C80ADDAE867887558975785BF8343D /* PXGradientView-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXGradientView-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
+		926EC888A509F393993E4FAA5B16FAD5 /* UIColor-MoreColors-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-MoreColors-iOS7.1-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94388E6C3C53B40310AD26D5D9ED24EE /* PXGradientView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PXGradientView-iOS8.0.xcconfig"; path = "../PXGradientView-iOS8.0/PXGradientView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		97ECA963EEBB4EBF5C0AF6421E7A9624 /* UIColor-MoreColors-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "UIColor-MoreColors-iOS8.0.xcconfig"; path = "../UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0.xcconfig"; sourceTree = "<group>"; };
 		9CDC3567F31A28C1C0A2EF07467F57F4 /* Pods-PXGradientView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXGradientView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9DD2B5660DE25C5DA0184206C34D0851 /* Pods-PXGradientView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXGradientView-frameworks.sh"; sourceTree = "<group>"; };
 		9F2EFE6FD857714CDA3F8294E437A6B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1496AB0CB05BABE52A45F96D40BC1FA /* PXGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXGradientView-prefix.pch"; sourceTree = "<group>"; };
 		A1A1E72C4DBD507CCC5A733CB47A8C96 /* Pods-PXGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXGradientView-umbrella.h"; sourceTree = "<group>"; };
-		A26FD461AED75411D851FE866C81AC18 /* PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54AFC4961940FF0C385DBE6B5121FD9 /* UIColor-MoreColors-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-MoreColors-iOS7.1.xcconfig"; sourceTree = "<group>"; };
 		A6ECDF321485C6D1BF2F03D0A0B75938 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		A7146A50004EBC4139EAB7EECA96272D /* PXGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXGradientView.xcconfig; sourceTree = "<group>"; };
-		B907FD59260F00B1073983FABBDECB1F /* UIColor+MoreColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MoreColors.h"; sourceTree = "<group>"; };
-		CBB4B54C9F00D710EA50CEA87E06C629 /* UIColor-MoreColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-MoreColors-umbrella.h"; sourceTree = "<group>"; };
+		B5D840FB5225B411BA4DF2D5DA0EFC47 /* UIColor-MoreColors-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor-MoreColors-iOS8.0-umbrella.h"; path = "../UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		C0028BAFB8E2595958633F6DB5DE995A /* PXGradientView-iOS7.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXGradientView-iOS7.1-umbrella.h"; sourceTree = "<group>"; };
 		CE3CD3E5FC0F8E9143159554E333BD14 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE5925A4C1CD6E7CCE83A046958F2FA0 /* PXGradientView-iOS7.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "PXGradientView-iOS7.1.modulemap"; sourceTree = "<group>"; };
 		D913E15F7FDB8256C9569BAC30A2A348 /* Pods-PXGradientView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXGradientView.release.xcconfig"; sourceTree = "<group>"; };
 		D9B4B4080038A3112F65B8FA1EC8E6DD /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		DACDBC20E5D3C5C0BFCB39940D6F34A2 /* Pods-PXGradientView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXGradientView-acknowledgements.plist"; sourceTree = "<group>"; };
-		E68F9E3E831989FBC9A1F891B16F7D4B /* PXGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXGradientView.m; sourceTree = "<group>"; };
 		E8234EB2F3CD8D85BBFA7591A451FEF3 /* UIColor_MoreColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_MoreColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03AE714155A1CD3AD7EBAB047AF9903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83A34623F715FE5FDB67673376DF66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../PXGradientView-iOS8.0/Info.plist"; sourceTree = "<group>"; };
+		EA432505375C8EB72CF898353BDA6306 /* PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA5DF492EAE47B190EE9B64D0090184 /* PXGradientView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXGradientView-iOS8.0-prefix.pch"; path = "../PXGradientView-iOS8.0/PXGradientView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		F266B4FD43D534D3617C633BC51D752F /* PXGradientView-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXGradientView-iOS7.1.xcconfig"; sourceTree = "<group>"; };
 		F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F7C241767187DCDA7AE7C01125FCFEB3 /* UIColor-MoreColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-MoreColors.xcconfig"; sourceTree = "<group>"; };
+		F6152E8D5EC910B50E6880E1D4DFE5AA /* PXGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXGradientView.m; sourceTree = "<group>"; };
+		F7F84EA3BF5377133916EAB73ACEBFF7 /* PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB5E7629B057172744706B9FC61005D /* Pods-PXGradientView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXGradientView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32B94F67644F571A3259454736345E89 /* Frameworks */ = {
+		28B27357EB6D43C0E3E9572C71746DD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81181D5372CA7BBAB9FC0E2E0E24299E /* Foundation.framework in Frameworks */,
-				6691D329010EA3DC34432B657D00060C /* UIColor_MoreColors.framework in Frameworks */,
-				CEA772C4AC97879988F2F851E08847C3 /* UIKit.framework in Frameworks */,
+				6008B12D7977D66CB0CCB23EA908129A /* Foundation.framework in Frameworks */,
+				40481A89353B8ECEA85C08C940B7D54D /* UIColor_MoreColors.framework in Frameworks */,
+				9AD3C56C960B7FF34BCF56BB9A5EB343 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47D6A6C01FA10D48BCF32F91F1377AE0 /* Frameworks */ = {
+		565C8295A5F17CD9247BB73A94727BCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAB92FAD6D81EF0D06AA4B09E8D04EA /* Foundation.framework in Frameworks */,
+				AA66328404F7D1106C686139B220C01B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700A5C6809071E09052940749E64DFA4 /* Frameworks */ = {
+		A00E74D64B6BFDD75EDE246E40D78C72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F33B9BDC907AE38A80FC6FB840E2BE /* Foundation.framework in Frameworks */,
-				863A94451DC626B317B51CDCC3E7CFB0 /* UIKit.framework in Frameworks */,
+				51352A23976840BE2C7B86B3066B77F9 /* Foundation.framework in Frameworks */,
+				99CFA5C4E50C1443BA4667E874A30807 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CE0D755662FB079A5750D113D5AD3A3 /* Frameworks */ = {
+		AAE3C4517EF684F3E7AD695FCA8CC175 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C1BA1C74A55960FDC6BF626504239B /* Foundation.framework in Frameworks */,
+				C8D34660E07D68F99FC6AFCF24FA964A /* Foundation.framework in Frameworks */,
+				157481292DA70814CE1C0512606D05F0 /* UIColor_MoreColors.framework in Frameworks */,
+				6D31ADB82A75DC8BB3E128A44ED27D27 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BFFDAEE7F3F5D3D76480671AC0489A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1470743026EAA2DD8756A9CC2CCA86B7 /* Foundation.framework in Frameworks */,
+				829181D23D066B361BCF91742C1FC9A1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A06BF09A8D6F0D010E15D029A3ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520E8D82F0F52FBBE155EFACEEB9F6C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01266960768522D8A74C6ADB891B4E43 /* PXGradientView */ = {
-			isa = PBXGroup;
-			children = (
-				23C0360AF9EF3A6C855465294C110D8E /* Pod */,
-				1DE0976D7FA188F2B66D387E2C50B41B /* Support Files */,
-			);
-			name = PXGradientView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		07AC9BBE417414F0297FC487A3F5B672 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				03FA851B4EE6DD9FC9D566F76BBB3966 /* PXGradientView.h */,
-				E68F9E3E831989FBC9A1F891B16F7D4B /* PXGradientView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		08426C7294DC40F820502697EBC9CF22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,65 +214,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1DE0976D7FA188F2B66D387E2C50B41B /* Support Files */ = {
+		1B62D97EE44C5D0341D68594A3CC74F3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F03AE714155A1CD3AD7EBAB047AF9903 /* Info.plist */,
-				0DA05D64F6F8AA351F4D2601EEC8D280 /* PXGradientView.modulemap */,
-				A7146A50004EBC4139EAB7EECA96272D /* PXGradientView.xcconfig */,
-				883545568C2184DC130BE0DD70921F95 /* PXGradientView-dummy.m */,
-				A1496AB0CB05BABE52A45F96D40BC1FA /* PXGradientView-prefix.pch */,
-				28546E9F2C151FCA8800585ED7394B76 /* PXGradientView-umbrella.h */,
+				E83A34623F715FE5FDB67673376DF66C /* Info.plist */,
+				08ECD4D830A471613ACF434D684BC4DA /* Info.plist */,
+				CE5925A4C1CD6E7CCE83A046958F2FA0 /* PXGradientView-iOS7.1.modulemap */,
+				F266B4FD43D534D3617C633BC51D752F /* PXGradientView-iOS7.1.xcconfig */,
+				5AFBB29CADED338194BED33A2E716EC1 /* PXGradientView-iOS7.1-dummy.m */,
+				82C80ADDAE867887558975785BF8343D /* PXGradientView-iOS7.1-prefix.pch */,
+				C0028BAFB8E2595958633F6DB5DE995A /* PXGradientView-iOS7.1-umbrella.h */,
+				6E742D62F35B59A66DBEA1ECD7E93FEB /* PXGradientView-iOS8.0.modulemap */,
+				94388E6C3C53B40310AD26D5D9ED24EE /* PXGradientView-iOS8.0.xcconfig */,
+				7DDFCB81C506C29B3EF2A81E0D44C4E0 /* PXGradientView-iOS8.0-dummy.m */,
+				EDA5DF492EAE47B190EE9B64D0090184 /* PXGradientView-iOS8.0-prefix.pch */,
+				6E51212DBA760F8F6E93096E2E021AD9 /* PXGradientView-iOS8.0-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PXGradientView";
+			path = "Example/Pods/Target Support Files/PXGradientView-iOS7.1";
 			sourceTree = "<group>";
 		};
-		23C0360AF9EF3A6C855465294C110D8E /* Pod */ = {
+		2941646CC2C9C6BD8726D8FF6CAF9028 /* UIColor-MoreColors */ = {
 			isa = PBXGroup;
 			children = (
-				07AC9BBE417414F0297FC487A3F5B672 /* Classes */,
+				323939E25CCFE554CF55E32161AAB83D /* UIColor+MoreColors.h */,
+				21E558B7084C6A81DF338DFB1126A1A8 /* UIColor+MoreColors.m */,
+				91CD3320D8D53DCC6B9A32003D4FBABF /* Support Files */,
 			);
-			path = Pod;
+			path = "UIColor-MoreColors";
 			sourceTree = "<group>";
 		};
 		3EDDD4C5890F39164E67FE5254E69A7D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB8ACED08CB3FFF93902F11505B0450F /* UIColor-MoreColors */,
+				2941646CC2C9C6BD8726D8FF6CAF9028 /* UIColor-MoreColors */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		44888B91A8595C5134B65E42D535B770 /* Support Files */ = {
+		4F08ABEFD6A3D5CEA746EB64CFB1A8BB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				71C65A81B012465C8C242C539F691D94 /* Info.plist */,
-				671F6153840834B17112DAA7E10A7581 /* UIColor-MoreColors.modulemap */,
-				F7C241767187DCDA7AE7C01125FCFEB3 /* UIColor-MoreColors.xcconfig */,
-				7D23275AA77A872F4576F67242FBDF3E /* UIColor-MoreColors-dummy.m */,
-				57040ED99BE148AE69FD7C237DD13799 /* UIColor-MoreColors-prefix.pch */,
-				CBB4B54C9F00D710EA50CEA87E06C629 /* UIColor-MoreColors-umbrella.h */,
+				4C83DF5F4F46ED60A4AA8BE466FAD6DB /* PXGradientView.h */,
+				F6152E8D5EC910B50E6880E1D4DFE5AA /* PXGradientView.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UIColor-MoreColors";
-			sourceTree = "<group>";
-		};
-		5F82A246A629751A11515AD366EC8CAE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52927976B6896CF130A4470FA72F5723 /* Pods_PXGradientView.framework */,
-				875E18B4421BEF020EDCF0A0A09FDDD8 /* Pods_Tests.framework */,
-				A26FD461AED75411D851FE866C81AC18 /* PXGradientView.framework */,
-				2AD16DD0F8B5ECABFC6B126D3D111021 /* UIColor_MoreColors.framework */,
-			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		643FEC50B406830501554C5DF0C9B377 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01266960768522D8A74C6ADB891B4E43 /* PXGradientView */,
+				6E86A07AD814F0DE5F3687A493842A54 /* PXGradientView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -250,6 +276,16 @@
 				F3FCE53892EB5410B99736FF8561EB47 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E86A07AD814F0DE5F3687A493842A54 /* PXGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				99F63C5B3D0EF3E42CEDC85FA7384BF4 /* Pod */,
+				1B62D97EE44C5D0341D68594A3CC74F3 /* Support Files */,
+			);
+			name = PXGradientView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		758A70921DC561E7604F1D9880AB4032 /* Targets Support Files */ = {
@@ -268,9 +304,22 @@
 				643FEC50B406830501554C5DF0C9B377 /* Development Pods */,
 				08426C7294DC40F820502697EBC9CF22 /* Frameworks */,
 				3EDDD4C5890F39164E67FE5254E69A7D /* Pods */,
-				5F82A246A629751A11515AD366EC8CAE /* Products */,
+				831D056AF0C3BC3E46ADCCEE132301E4 /* Products */,
 				758A70921DC561E7604F1D9880AB4032 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		831D056AF0C3BC3E46ADCCEE132301E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1574C5B898A96DDFC44376262CAB9546 /* Pods_PXGradientView.framework */,
+				11BA0C4D0C207F4CF98F59A90BC5782A /* Pods_Tests.framework */,
+				F7F84EA3BF5377133916EAB73ACEBFF7 /* PXGradientView.framework */,
+				EA432505375C8EB72CF898353BDA6306 /* PXGradientView.framework */,
+				3A13EBFB256605E8228A21496C5CC895 /* UIColor_MoreColors.framework */,
+				4548FE796CDAE4826D116803534DEE5A /* UIColor_MoreColors.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8CBA6144BB0899099BC8893205D694B3 /* Pods-Tests */ = {
@@ -291,14 +340,32 @@
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		BB8ACED08CB3FFF93902F11505B0450F /* UIColor-MoreColors */ = {
+		91CD3320D8D53DCC6B9A32003D4FBABF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B907FD59260F00B1073983FABBDECB1F /* UIColor+MoreColors.h */,
-				7120F79D4CC609C2022A3C57B0907F74 /* UIColor+MoreColors.m */,
-				44888B91A8595C5134B65E42D535B770 /* Support Files */,
+				26BA9F0E69055166738E06AC9EBCDA0E /* Info.plist */,
+				4EDB427A2C2B0F4E499D4D80F52BC071 /* Info.plist */,
+				24BE17F82B5302B52905CA88C8FA5977 /* UIColor-MoreColors-iOS7.1.modulemap */,
+				A54AFC4961940FF0C385DBE6B5121FD9 /* UIColor-MoreColors-iOS7.1.xcconfig */,
+				926EC888A509F393993E4FAA5B16FAD5 /* UIColor-MoreColors-iOS7.1-dummy.m */,
+				42DEE09DDB3A6C35A1A9E021D8AF652C /* UIColor-MoreColors-iOS7.1-prefix.pch */,
+				243653BB9D79A5FA39A5FB849BD87ADF /* UIColor-MoreColors-iOS7.1-umbrella.h */,
+				2F07672B110D2CC41CD93C04A6A9B854 /* UIColor-MoreColors-iOS8.0.modulemap */,
+				97ECA963EEBB4EBF5C0AF6421E7A9624 /* UIColor-MoreColors-iOS8.0.xcconfig */,
+				5D18717331D4D84D6E35EC2B6D6FFE51 /* UIColor-MoreColors-iOS8.0-dummy.m */,
+				26584E0E2C066B99F2FC5D919E2114C6 /* UIColor-MoreColors-iOS8.0-prefix.pch */,
+				B5D840FB5225B411BA4DF2D5DA0EFC47 /* UIColor-MoreColors-iOS8.0-umbrella.h */,
 			);
-			path = "UIColor-MoreColors";
+			name = "Support Files";
+			path = "../Target Support Files/UIColor-MoreColors-iOS7.1";
+			sourceTree = "<group>";
+		};
+		99F63C5B3D0EF3E42CEDC85FA7384BF4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F08ABEFD6A3D5CEA746EB64CFB1A8BB /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BE8A3D4E043ACFB36107BE8AC0B81939 /* Pods-PXGradientView */ = {
@@ -322,114 +389,167 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		350FF726529B0DEE1B383ADCE071465A /* Headers */ = {
+		03CE60A310133FD0CA6602D9F9B33A01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E39F0F0B4B103FAEA65E36B04BFF8FC /* Pods-Tests-umbrella.h in Headers */,
+				50C1E6C0A95E4526319D22FE287F9E78 /* UIColor+MoreColors.h in Headers */,
+				B5993B0B056D4136D759013186C07645 /* UIColor-MoreColors-iOS7.1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		485FECCE11A8CAD4809A49B0A917F625 /* Headers */ = {
+		2990DB4829DB294DC972BABF2C1BFB86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B883AB0FAF0BCB9E92F5748A2E9B6F6 /* Pods-PXGradientView-umbrella.h in Headers */,
+				7E65B092C6E1F2E0D2A9901E9F53E432 /* Pods-Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54EB68A75924F40989B71CCF3110E8B1 /* Headers */ = {
+		7637DFDB3271D8D6BE9B02C1C53E0098 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				815EB018BDECAE837868B532A341B6C2 /* UIColor+MoreColors.h in Headers */,
-				A68070196E7BBD4767174D890BDE95DB /* UIColor-MoreColors-umbrella.h in Headers */,
+				C1EACD9A5AA6A053FF52AC22A131FFDE /* PXGradientView-iOS7.1-umbrella.h in Headers */,
+				91A53FE4F2CBE73D96431946F4825716 /* PXGradientView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BB06381F6B2575A73CF3C70B050A90C /* Headers */ = {
+		9C0DBA55B856498520C932B46E90C41D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CE9551D3D48E8A7F1DDD5C09504E07 /* PXGradientView-umbrella.h in Headers */,
-				8A0106461ED2BE0EAEA8F06D6C4F933E /* PXGradientView.h in Headers */,
+				CBBB137F51B68406555846F993C67081 /* UIColor+MoreColors.h in Headers */,
+				57599A59E81A93EA4AFF25D393CA83D3 /* UIColor-MoreColors-iOS8.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A9B6BF89047E9E573DD45C63D2AE1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9DEAB55FC861B089D94607645B0A9A /* PXGradientView-iOS8.0-umbrella.h in Headers */,
+				ADC0237646FB66CACD9D10A6DE22EA4C /* PXGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D569EA4669A29C173607873B6A5B00CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946A36138269BD51DF3F11AE0C569FC /* Pods-PXGradientView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		217DD33F723EA815FDF3793A0B8A2B73 /* Pods-PXGradientView */ = {
+		18FE1F21F774403EF628ABEC902FC768 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00CCB9805102D6399CC04BBCCA5A6D0E /* Build configuration list for PBXNativeTarget "Pods-PXGradientView" */;
+			buildConfigurationList = DBE137711F98D7A68C92409387D00889 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				476BA0B33EF82A379EAD9487044A6BFC /* Sources */,
-				8CE0D755662FB079A5750D113D5AD3A3 /* Frameworks */,
-				485FECCE11A8CAD4809A49B0A917F625 /* Headers */,
+				2583117F2C32D6038921F55E9C5ECBD4 /* Sources */,
+				FA5A06BF09A8D6F0D010E15D029A3ED3 /* Frameworks */,
+				2990DB4829DB294DC972BABF2C1BFB86 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				755B1B3720261296480C9B826DF52874 /* PBXTargetDependency */,
-				52AC1BA4FCB57423471BEB51E1CF33AD /* PBXTargetDependency */,
-			);
-			name = "Pods-PXGradientView";
-			productName = "Pods-PXGradientView";
-			productReference = 52927976B6896CF130A4470FA72F5723 /* Pods_PXGradientView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		754B2D37A00235F3DDB22C1451314ACC /* UIColor-MoreColors */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4622FA7A2F01C03F2D1AEDCCF7357EE1 /* Build configuration list for PBXNativeTarget "UIColor-MoreColors" */;
-			buildPhases = (
-				AEE8B938814C1A3BF31128DABCB4267F /* Sources */,
-				700A5C6809071E09052940749E64DFA4 /* Frameworks */,
-				54EB68A75924F40989B71CCF3110E8B1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UIColor-MoreColors";
-			productName = "UIColor-MoreColors";
-			productReference = 2AD16DD0F8B5ECABFC6B126D3D111021 /* UIColor_MoreColors.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A1234F3BEBBC724402F27A397E911C0B /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83E8BA9A0A792FADC19392DBA8485ACC /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				82E1E6571E7BDE4F398B41BDF6943CF6 /* Sources */,
-				47D6A6C01FA10D48BCF32F91F1377AE0 /* Frameworks */,
-				350FF726529B0DEE1B383ADCE071465A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC9830EA702E572EFAC3526736BB8259 /* PBXTargetDependency */,
-				1E722014C0D004908BE964CBA5EDC9CA /* PBXTargetDependency */,
+				54C193787FC654E36EE0EADA4C226420 /* PBXTargetDependency */,
+				DE7E43612E984970183C5AFCBF121307 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 875E18B4421BEF020EDCF0A0A09FDDD8 /* Pods_Tests.framework */;
+			productReference = 11BA0C4D0C207F4CF98F59A90BC5782A /* Pods_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A4C7BABCFD184613971D9C304D4CBDBB /* PXGradientView */ = {
+		71FC1EFD7132AF010E596EA187577DAB /* UIColor-MoreColors-iOS7.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C8E7A90A1F6085A38226C81FE8D2923 /* Build configuration list for PBXNativeTarget "PXGradientView" */;
+			buildConfigurationList = CE08CC47B46FD6AC0161D205818501DA /* Build configuration list for PBXNativeTarget "UIColor-MoreColors-iOS7.1" */;
 			buildPhases = (
-				607F217860B4371FCFA25C0798231E71 /* Sources */,
-				32B94F67644F571A3259454736345E89 /* Frameworks */,
-				6BB06381F6B2575A73CF3C70B050A90C /* Headers */,
+				44E5D545D4679CE87C92E76CB67183F7 /* Sources */,
+				D8BFFDAEE7F3F5D3D76480671AC0489A /* Frameworks */,
+				03CE60A310133FD0CA6602D9F9B33A01 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34CC2EF45352AA382102D79B72FEED45 /* PBXTargetDependency */,
 			);
-			name = PXGradientView;
-			productName = PXGradientView;
-			productReference = A26FD461AED75411D851FE866C81AC18 /* PXGradientView.framework */;
+			name = "UIColor-MoreColors-iOS7.1";
+			productName = "UIColor-MoreColors-iOS7.1";
+			productReference = 3A13EBFB256605E8228A21496C5CC895 /* UIColor_MoreColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EA9A554F7857A62D569F8DDA8B85F60 /* UIColor-MoreColors-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E3641BDD9A05124EC42FF8F713ECBC /* Build configuration list for PBXNativeTarget "UIColor-MoreColors-iOS8.0" */;
+			buildPhases = (
+				E6500016997BB23697CB287443C070F6 /* Sources */,
+				A00E74D64B6BFDD75EDE246E40D78C72 /* Frameworks */,
+				9C0DBA55B856498520C932B46E90C41D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor-MoreColors-iOS8.0";
+			productName = "UIColor-MoreColors-iOS8.0";
+			productReference = 4548FE796CDAE4826D116803534DEE5A /* UIColor_MoreColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B39A6950EA99780A3BDE1A86B06C7325 /* PXGradientView-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2249A030E406D00A03AC191BE660D4D /* Build configuration list for PBXNativeTarget "PXGradientView-iOS8.0" */;
+			buildPhases = (
+				5ABD76AC4FF2FF00B37A28D6F42442D6 /* Sources */,
+				AAE3C4517EF684F3E7AD695FCA8CC175 /* Frameworks */,
+				B4A9B6BF89047E9E573DD45C63D2AE1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5C40EDBEDFAA087140372D384F0BBA /* PBXTargetDependency */,
+			);
+			name = "PXGradientView-iOS8.0";
+			productName = "PXGradientView-iOS8.0";
+			productReference = F7F84EA3BF5377133916EAB73ACEBFF7 /* PXGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1984809B269AD198DA643B3029FA67C /* Pods-PXGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE61012C61B77FBC2BDD2AD130D502D /* Build configuration list for PBXNativeTarget "Pods-PXGradientView" */;
+			buildPhases = (
+				F302BB333AC8DDF5F41E29FF1F29090D /* Sources */,
+				565C8295A5F17CD9247BB73A94727BCD /* Frameworks */,
+				D569EA4669A29C173607873B6A5B00CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BBBA6AB3B23BF6B38DE397CEB0EC2C /* PBXTargetDependency */,
+				E9633371543718B956D6C0A4D78533AF /* PBXTargetDependency */,
+			);
+			name = "Pods-PXGradientView";
+			productName = "Pods-PXGradientView";
+			productReference = 1574C5B898A96DDFC44376262CAB9546 /* Pods_PXGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E470BA050A8CA3AE2E7C17675C940B2D /* PXGradientView-iOS7.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796E8D5CEF46310C5048C09CD8854A13 /* Build configuration list for PBXNativeTarget "PXGradientView-iOS7.1" */;
+			buildPhases = (
+				F9548E866E84A4893BF359F416B50D20 /* Sources */,
+				28B27357EB6D43C0E3E9572C71746DD2 /* Frameworks */,
+				7637DFDB3271D8D6BE9B02C1C53E0098 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D159262E4D027E7A471CE9F4F4285C3C /* PBXTargetDependency */,
+			);
+			name = "PXGradientView-iOS7.1";
+			productName = "PXGradientView-iOS7.1";
+			productReference = EA432505375C8EB72CF898353BDA6306 /* PXGradientView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -449,92 +569,118 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5F82A246A629751A11515AD366EC8CAE /* Products */;
+			productRefGroup = 831D056AF0C3BC3E46ADCCEE132301E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				217DD33F723EA815FDF3793A0B8A2B73 /* Pods-PXGradientView */,
-				A1234F3BEBBC724402F27A397E911C0B /* Pods-Tests */,
-				A4C7BABCFD184613971D9C304D4CBDBB /* PXGradientView */,
-				754B2D37A00235F3DDB22C1451314ACC /* UIColor-MoreColors */,
+				E1984809B269AD198DA643B3029FA67C /* Pods-PXGradientView */,
+				18FE1F21F774403EF628ABEC902FC768 /* Pods-Tests */,
+				E470BA050A8CA3AE2E7C17675C940B2D /* PXGradientView-iOS7.1 */,
+				B39A6950EA99780A3BDE1A86B06C7325 /* PXGradientView-iOS8.0 */,
+				71FC1EFD7132AF010E596EA187577DAB /* UIColor-MoreColors-iOS7.1 */,
+				9EA9A554F7857A62D569F8DDA8B85F60 /* UIColor-MoreColors-iOS8.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		476BA0B33EF82A379EAD9487044A6BFC /* Sources */ = {
+		2583117F2C32D6038921F55E9C5ECBD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1132D78852A0C71FC7F18EC63C14E1A /* Pods-PXGradientView-dummy.m in Sources */,
+				A0A9C999F89C21DDE2D7AF9993C9BA67 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607F217860B4371FCFA25C0798231E71 /* Sources */ = {
+		44E5D545D4679CE87C92E76CB67183F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73AF775D48EA61BE678D321CC80C1D3 /* PXGradientView-dummy.m in Sources */,
-				3F94C7063DBD13FF2ECCF000D8AAFC4C /* PXGradientView.m in Sources */,
+				1ADF6BC3F8952E531E14473E02203238 /* UIColor+MoreColors.m in Sources */,
+				68C58D5C01CF327C29A0AA029811599B /* UIColor-MoreColors-iOS7.1-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82E1E6571E7BDE4F398B41BDF6943CF6 /* Sources */ = {
+		5ABD76AC4FF2FF00B37A28D6F42442D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51276BF41B27435D9F6BD8110AFF038F /* Pods-Tests-dummy.m in Sources */,
+				BC32E2698C096770AAE98FB7A5A26655 /* PXGradientView-iOS8.0-dummy.m in Sources */,
+				61609A8FF38F016F2B27C5B4638F364C /* PXGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEE8B938814C1A3BF31128DABCB4267F /* Sources */ = {
+		E6500016997BB23697CB287443C070F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F27FAAF56D95AA42449A89B392EF4B8 /* UIColor+MoreColors.m in Sources */,
-				F6A2BADFE0F8BA8AD13856ABDE4606A9 /* UIColor-MoreColors-dummy.m in Sources */,
+				503A2B7487468C7973888BF0EA842388 /* UIColor+MoreColors.m in Sources */,
+				93D0615BB40B7C49ED86876FE9A3A200 /* UIColor-MoreColors-iOS8.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F302BB333AC8DDF5F41E29FF1F29090D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D94B654D33F8052283E767393BD84F /* Pods-PXGradientView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9548E866E84A4893BF359F416B50D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8662CA2BDCB13931A5D8541511C614B8 /* PXGradientView-iOS7.1-dummy.m in Sources */,
+				268753416D9C6239FD71B585F0E373A9 /* PXGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E722014C0D004908BE964CBA5EDC9CA /* PBXTargetDependency */ = {
+		3D5C40EDBEDFAA087140372D384F0BBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIColor-MoreColors";
-			target = 754B2D37A00235F3DDB22C1451314ACC /* UIColor-MoreColors */;
-			targetProxy = 7EFBEDCEE7213163E090A7BA19873A52 /* PBXContainerItemProxy */;
+			name = "UIColor-MoreColors-iOS8.0";
+			target = 9EA9A554F7857A62D569F8DDA8B85F60 /* UIColor-MoreColors-iOS8.0 */;
+			targetProxy = 769A62F73C8CC9FB94C8E48FCAA0BF85 /* PBXContainerItemProxy */;
 		};
-		34CC2EF45352AA382102D79B72FEED45 /* PBXTargetDependency */ = {
+		54C193787FC654E36EE0EADA4C226420 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIColor-MoreColors";
-			target = 754B2D37A00235F3DDB22C1451314ACC /* UIColor-MoreColors */;
-			targetProxy = 69C23FF8500989509A17EFCE73010193 /* PBXContainerItemProxy */;
+			name = "PXGradientView-iOS7.1";
+			target = E470BA050A8CA3AE2E7C17675C940B2D /* PXGradientView-iOS7.1 */;
+			targetProxy = 812AA5E76A5AE58A0D9E4EC00EED6597 /* PBXContainerItemProxy */;
 		};
-		52AC1BA4FCB57423471BEB51E1CF33AD /* PBXTargetDependency */ = {
+		70BBBA6AB3B23BF6B38DE397CEB0EC2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIColor-MoreColors";
-			target = 754B2D37A00235F3DDB22C1451314ACC /* UIColor-MoreColors */;
-			targetProxy = BABF63393E0DD7BF0133F4CF2E493AC7 /* PBXContainerItemProxy */;
+			name = "PXGradientView-iOS8.0";
+			target = B39A6950EA99780A3BDE1A86B06C7325 /* PXGradientView-iOS8.0 */;
+			targetProxy = C478E294A72FACD3032D6E4EEFCAABF2 /* PBXContainerItemProxy */;
 		};
-		755B1B3720261296480C9B826DF52874 /* PBXTargetDependency */ = {
+		D159262E4D027E7A471CE9F4F4285C3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PXGradientView;
-			target = A4C7BABCFD184613971D9C304D4CBDBB /* PXGradientView */;
-			targetProxy = 9E19B304D68E8FBD36CCEFA4EEAAD980 /* PBXContainerItemProxy */;
+			name = "UIColor-MoreColors-iOS8.0";
+			target = 9EA9A554F7857A62D569F8DDA8B85F60 /* UIColor-MoreColors-iOS8.0 */;
+			targetProxy = 126D053F457BC1E472FF469FB98F5393 /* PBXContainerItemProxy */;
 		};
-		EC9830EA702E572EFAC3526736BB8259 /* PBXTargetDependency */ = {
+		DE7E43612E984970183C5AFCBF121307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PXGradientView;
-			target = A4C7BABCFD184613971D9C304D4CBDBB /* PXGradientView */;
-			targetProxy = 68A81168C5B3576A818FDE63297FFBDC /* PBXContainerItemProxy */;
+			name = "UIColor-MoreColors-iOS7.1";
+			target = 71FC1EFD7132AF010E596EA187577DAB /* UIColor-MoreColors-iOS7.1 */;
+			targetProxy = 78A5F79F3876717F921BA029C7999DA9 /* PBXContainerItemProxy */;
+		};
+		E9633371543718B956D6C0A4D78533AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-MoreColors-iOS8.0";
+			target = 9EA9A554F7857A62D569F8DDA8B85F60 /* UIColor-MoreColors-iOS8.0 */;
+			targetProxy = 49C1E6AE7A969B98B5794A401F553C62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		375EBB1101C5B66A156C0139C5EA5F13 /* Release */ = {
+		0A9582952D9A6B21146603FD18E976AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A93127C34EF7FEB37D371FA4DC71F5D /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = A54AFC4961940FF0C385DBE6B5121FD9 /* UIColor-MoreColors-iOS7.1.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -545,18 +691,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors-iOS7.1/UIColor-MoreColors-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors-iOS7.1/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors-iOS7.1/UIColor-MoreColors-iOS7.1.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Tests;
+				PRODUCT_NAME = UIColor_MoreColors;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,9 +707,9 @@
 			};
 			name = Release;
 		};
-		4EB6167B97D012BA6B4FB28B35F42AA2 /* Debug */ = {
+		0D66D160EABF63F1D11EA833914008F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 758C28E96556FFEC87C99E0BF55EBEF0 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = F266B4FD43D534D3617C633BC51D752F /* PXGradientView-iOS7.1.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -578,18 +720,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView-iOS7.1/PXGradientView-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXGradientView-iOS7.1/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PXGradientView-iOS7.1/PXGradientView-iOS7.1.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Tests;
+				PRODUCT_NAME = PXGradientView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,9 +736,38 @@
 			};
 			name = Debug;
 		};
-		500BB3A4C217FE56F2502CAA3BC75F8C /* Debug */ = {
+		17B819DC2BC8627023AC64B56E553F35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7C241767187DCDA7AE7C01125FCFEB3 /* UIColor-MoreColors.xcconfig */;
+			baseConfigurationReference = 94388E6C3C53B40310AD26D5D9ED24EE /* PXGradientView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView-iOS8.0/PXGradientView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXGradientView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXGradientView-iOS8.0/PXGradientView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2448DA579B882A3B3E6544E846CF866B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB5E7629B057172744706B9FC61005D /* Pods-PXGradientView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -611,12 +778,45 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors/UIColor-MoreColors-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXGradientView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors/UIColor-MoreColors.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXGradientView/Pods-PXGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24581B52AE186CE7E94043CA90B9AA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ECA963EEBB4EBF5C0AF6421E7A9624 /* UIColor-MoreColors-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = UIColor_MoreColors;
 				SDKROOT = iphoneos;
@@ -626,6 +826,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		41F8550E1E8004273A11D97DC2EED4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ECA963EEBB4EBF5C0AF6421E7A9624 /* UIColor-MoreColors-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors-iOS8.0/UIColor-MoreColors-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_MoreColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		53B24DC53567B863A4EC939BA8C91EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -669,6 +898,35 @@
 			};
 			name = Debug;
 		};
+		672300EA9F44BD0A420A77E1A257409A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94388E6C3C53B40310AD26D5D9ED24EE /* PXGradientView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView-iOS8.0/PXGradientView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXGradientView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXGradientView-iOS8.0/PXGradientView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6E8650B586063F4B0A6C383981C0C203 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -707,7 +965,98 @@
 			};
 			name = Release;
 		};
-		8A61D7CA5383411F398C2294A2A5B2CA /* Release */ = {
+		AA812A04BDED20EBBAD6021C18CB3592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54AFC4961940FF0C385DBE6B5121FD9 /* UIColor-MoreColors-iOS7.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors-iOS7.1/UIColor-MoreColors-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors-iOS7.1/UIColor-MoreColors-iOS7.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_MoreColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFDD87553EE5C370F56B58FB3FEAEA42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F266B4FD43D534D3617C633BC51D752F /* PXGradientView-iOS7.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView-iOS7.1/PXGradientView-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXGradientView-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXGradientView-iOS7.1/PXGradientView-iOS7.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6B71A1BC7271EEC2B37AF22DD8FADDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758C28E96556FFEC87C99E0BF55EBEF0 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F81A4827999C402FB6A3767FA2F97A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D913E15F7FDB8256C9569BAC30A2A348 /* Pods-PXGradientView.release.xcconfig */;
 			buildSettings = {
@@ -722,7 +1071,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PXGradientView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PXGradientView/Pods-PXGradientView.modulemap";
@@ -740,118 +1089,31 @@
 			};
 			name = Release;
 		};
-		E441C74623520169D438D417430592CB /* Debug */ = {
+		F82AB22BE18748E7E83BC05C7F938F0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB5E7629B057172744706B9FC61005D /* Pods-PXGradientView.debug.xcconfig */;
+			baseConfigurationReference = 1A93127C34EF7FEB37D371FA4DC71F5D /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PXGradientView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PXGradientView/Pods-PXGradientView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PXGradientView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E7EF86312759C4AEE2FEC2CECC6082FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7146A50004EBC4139EAB7EECA96272D /* PXGradientView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView/PXGradientView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXGradientView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXGradientView/PXGradientView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PXGradientView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F7C52F547328005C58EA7D2A0682CE74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7146A50004EBC4139EAB7EECA96272D /* PXGradientView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXGradientView/PXGradientView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PXGradientView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PXGradientView/PXGradientView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PXGradientView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FAD2E3D42BCDB18EFAACB6E86CB083E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7C241767187DCDA7AE7C01125FCFEB3 /* UIColor-MoreColors.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor-MoreColors/UIColor-MoreColors-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor-MoreColors/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor-MoreColors/UIColor-MoreColors.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIColor_MoreColors;
+				PRODUCT_NAME = Pods_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,15 +1125,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00CCB9805102D6399CC04BBCCA5A6D0E /* Build configuration list for PBXNativeTarget "Pods-PXGradientView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E441C74623520169D438D417430592CB /* Debug */,
-				8A61D7CA5383411F398C2294A2A5B2CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -881,29 +1134,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4622FA7A2F01C03F2D1AEDCCF7357EE1 /* Build configuration list for PBXNativeTarget "UIColor-MoreColors" */ = {
+		796E8D5CEF46310C5048C09CD8854A13 /* Build configuration list for PBXNativeTarget "PXGradientView-iOS7.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				500BB3A4C217FE56F2502CAA3BC75F8C /* Debug */,
-				FAD2E3D42BCDB18EFAACB6E86CB083E7 /* Release */,
+				0D66D160EABF63F1D11EA833914008F0 /* Debug */,
+				CFDD87553EE5C370F56B58FB3FEAEA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C8E7A90A1F6085A38226C81FE8D2923 /* Build configuration list for PBXNativeTarget "PXGradientView" */ = {
+		B2249A030E406D00A03AC191BE660D4D /* Build configuration list for PBXNativeTarget "PXGradientView-iOS8.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7EF86312759C4AEE2FEC2CECC6082FF /* Debug */,
-				F7C52F547328005C58EA7D2A0682CE74 /* Release */,
+				672300EA9F44BD0A420A77E1A257409A /* Debug */,
+				17B819DC2BC8627023AC64B56E553F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83E8BA9A0A792FADC19392DBA8485ACC /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		CE08CC47B46FD6AC0161D205818501DA /* Build configuration list for PBXNativeTarget "UIColor-MoreColors-iOS7.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EB6167B97D012BA6B4FB28B35F42AA2 /* Debug */,
-				375EBB1101C5B66A156C0139C5EA5F13 /* Release */,
+				AA812A04BDED20EBBAD6021C18CB3592 /* Debug */,
+				0A9582952D9A6B21146603FD18E976AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE137711F98D7A68C92409387D00889 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B71A1BC7271EEC2B37AF22DD8FADDE /* Debug */,
+				F82AB22BE18748E7E83BC05C7F938F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E3641BDD9A05124EC42FF8F713ECBC /* Build configuration list for PBXNativeTarget "UIColor-MoreColors-iOS8.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24581B52AE186CE7E94043CA90B9AA81 /* Debug */,
+				41F8550E1E8004273A11D97DC2EED4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE61012C61B77FBC2BDD2AD130D502D /* Build configuration list for PBXNativeTarget "Pods-PXGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448DA579B882A3B3E6544E846CF866B /* Debug */,
+				F81A4827999C402FB6A3767FA2F97A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
