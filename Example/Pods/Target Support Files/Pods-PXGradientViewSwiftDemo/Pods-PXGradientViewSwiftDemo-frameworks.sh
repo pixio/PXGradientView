@@ -89,12 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PXGradientView-iOS8.0/PXGradientView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/UIColor-MoreColors-iOS8.0/UIColor_MoreColors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PXGradientView-iOS10.2/PXGradientView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColor-MoreColors-iOS10.2/UIColor_MoreColors.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PXGradientView-iOS8.0/PXGradientView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/UIColor-MoreColors-iOS8.0/UIColor_MoreColors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/PXGradientView-iOS10.2/PXGradientView.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColor-MoreColors-iOS10.2/UIColor_MoreColors.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,0 +1,6 @@
+framework module Pods_PXGradientViewSwiftDemo {
+  umbrella header "Pods-PXGradientViewSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
