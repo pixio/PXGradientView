@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger, PXGradientDirection)
 /**
  *  The colors to use in the gradient.  This is simply an array of UIColors.
  */
-@property (nonatomic, nullable) NSArray * gradientColors;
+@property (nonatomic, nullable) NSArray<UIColor *> * gradientColors;
 
 /**
  *  The direction the gradient gradates.
@@ -86,7 +86,7 @@ typedef NS_ENUM(NSInteger, PXGradientDirection)
 /**
  *  The points to use along the gradient.  If this property is nil, the colors are evenly spaced across the gradient.
  */
-@property (nonatomic, nullable) NSArray * locations;
+@property (nonatomic, nullable) NSArray<NSNumber *> * locations;
 
 /**
  *  Make a gradient view with a specified default gradient.  This creates a gradient without having to set the
