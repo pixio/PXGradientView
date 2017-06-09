@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E61C8E41FD783BE3FD19783 /* Pods_PXGradientViewSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E17FEF8727D47179439430 /* Pods_PXGradientViewSwiftDemo.framework */; };
 		2C63F9E91B33315800296E37 /* PXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63F9E81B33315800296E37 /* PXView.m */; };
-		55142AC01C77C99000A9696D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABD1C77C99000A9696D /* AppDelegate.swift */; };
-		55142AC11C77C99000A9696D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABE1C77C99000A9696D /* View.swift */; };
-		55142AC21C77C99000A9696D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABF1C77C99000A9696D /* ViewController.swift */; };
+		4B1BB9DA1E4E51F6006BA138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1BB9D91E4E51F6006BA138 /* Assets.xcassets */; };
+		4B1BB9E81E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BB9E71E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.swift */; };
+		4B1BB9F01E4E5234006BA138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABD1C77C99000A9696D /* AppDelegate.swift */; };
+		4B1BB9F11E4E5234006BA138 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABE1C77C99000A9696D /* View.swift */; };
+		4B1BB9F21E4E5234006BA138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55142ABF1C77C99000A9696D /* ViewController.swift */; };
+		4B1BB9F41E4E5271006BA138 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1BB9F31E4E5271006BA138 /* Default-568h@2x.png */; };
+		4C4DB40255CB8D4719FA0F59 /* Pods_PXGradientViewSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9E645042DC77266DC62C08 /* Pods_PXGradientViewSwiftDemoTests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,11 +29,18 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		A2E5F66778A33C316DCE6627 /* Pods_PXGradientViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4F66D18DC838D8E9012056 /* Pods_PXGradientViewDemo.framework */; };
 		D53268CE1630AAEDCE149DE7 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54890B12E62614F9DAF0C30 /* Pods_Tests.framework */; };
-		DE2472BB65E08F9044907CBF /* Pods_PXGradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389F38CCF1100694F3DE14B /* Pods_PXGradientView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B1BB9E41E4E51F6006BA138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1BB9CF1E4E51F6006BA138;
+			remoteInfo = PXGradientViewSwiftDemo;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -40,10 +52,21 @@
 
 /* Begin PBXFileReference section */
 		0389F38CCF1100694F3DE14B /* Pods_PXGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6BDC9A5867356A63EC8332 /* Pods-PXGradientViewSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewSwiftDemoTests/Pods-PXGradientViewSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ECF96FF12F0170B36B28CA2 /* Pods-PXGradientViewSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewSwiftDemo/Pods-PXGradientViewSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		21FDF4DDA14A472DFC16BF58 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A8BCDF058E4027E37CC6615 /* Pods-PXGradientViewSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewSwiftDemoTests/Pods-PXGradientViewSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C63F9E71B33315800296E37 /* PXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXView.h; sourceTree = "<group>"; };
 		2C63F9E81B33315800296E37 /* PXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXView.m; sourceTree = "<group>"; };
+		39AD42A0D36A3153B62EC11A /* Pods-PXGradientViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewDemo/Pods-PXGradientViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4393745E6BF6DAA0167326D5 /* Pods-PXGradientView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientView/Pods-PXGradientView.release.xcconfig"; sourceTree = "<group>"; };
+		4B1BB9D01E4E51F6006BA138 /* PXGradientViewSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXGradientViewSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1BB9D91E4E51F6006BA138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B1BB9DE1E4E51F6006BA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1BB9E31E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXGradientViewSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1BB9E71E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXGradientViewSwiftDemoTests.swift; sourceTree = "<group>"; };
+		4B1BB9E91E4E51F6006BA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1BB9F31E4E5271006BA138 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		55142ABC1C77C98F00A9696D /* PXGradientView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXGradientView-Bridging-Header.h"; sourceTree = "<group>"; };
 		55142ABD1C77C99000A9696D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55142ABE1C77C99000A9696D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -69,6 +92,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		696AB83DAD75659AA1F280E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6AA840791D62AC5103E8370A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97BCE805605AA575A0D77506 /* Pods-PXGradientViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewDemo/Pods-PXGradientViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97E17FEF8727D47179439430 /* Pods_PXGradientViewSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientViewSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4F66D18DC838D8E9012056 /* Pods_PXGradientViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9E645042DC77266DC62C08 /* Pods_PXGradientViewSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXGradientViewSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4078256E4D6FA74C447BAA3 /* Pods-PXGradientViewSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXGradientViewSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXGradientViewSwiftDemo/Pods-PXGradientViewSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A54890B12E62614F9DAF0C30 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39CFFD7BFC49E0CF63E99E9 /* PXGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXGradientView.podspec; path = ../PXGradientView.podspec; sourceTree = "<group>"; };
 		DB90EA824A06FF7695B80F8F /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +104,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B1BB9CD1E4E51F6006BA138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E61C8E41FD783BE3FD19783 /* Pods_PXGradientViewSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1BB9E01E4E51F6006BA138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4DB40255CB8D4719FA0F59 /* Pods_PXGradientViewSwiftDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,7 +127,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DE2472BB65E08F9044907CBF /* Pods_PXGradientView.framework in Frameworks */,
+				A2E5F66778A33C316DCE6627 /* Pods_PXGradientViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,23 +145,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55142ABB1C77C96500A9696D /* Swift */ = {
+		4B1BB9D11E4E51F6006BA138 /* PXGradientViewSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
 				55142ABD1C77C99000A9696D /* AppDelegate.swift */,
 				55142ABE1C77C99000A9696D /* View.swift */,
 				55142ABF1C77C99000A9696D /* ViewController.swift */,
 				55142ABC1C77C98F00A9696D /* PXGradientView-Bridging-Header.h */,
+				4B1BB9D91E4E51F6006BA138 /* Assets.xcassets */,
+				4B1BB9DE1E4E51F6006BA138 /* Info.plist */,
 			);
-			name = Swift;
+			path = PXGradientViewSwiftDemo;
+			sourceTree = "<group>";
+		};
+		4B1BB9E61E4E51F6006BA138 /* PXGradientViewSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B1BB9E71E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.swift */,
+				4B1BB9E91E4E51F6006BA138 /* Info.plist */,
+			);
+			path = PXGradientViewSwiftDemoTests;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4B1BB9F31E4E5271006BA138 /* Default-568h@2x.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* PXGradientView */,
 				6003F5B5195388D20070C39A /* Tests */,
+				4B1BB9D11E4E51F6006BA138 /* PXGradientViewSwiftDemo */,
+				4B1BB9E61E4E51F6006BA138 /* PXGradientViewSwiftDemoTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				EB483A21B6B4172F06F1A905 /* Pods */,
@@ -129,6 +187,8 @@
 			children = (
 				6003F58A195388D20070C39A /* PXGradientViewDemo.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
+				4B1BB9D01E4E51F6006BA138 /* PXGradientViewSwiftDemo.app */,
+				4B1BB9E31E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +202,9 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				0389F38CCF1100694F3DE14B /* Pods_PXGradientView.framework */,
 				A54890B12E62614F9DAF0C30 /* Pods_Tests.framework */,
+				9B4F66D18DC838D8E9012056 /* Pods_PXGradientViewDemo.framework */,
+				97E17FEF8727D47179439430 /* Pods_PXGradientViewSwiftDemo.framework */,
+				9C9E645042DC77266DC62C08 /* Pods_PXGradientViewSwiftDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,7 +212,6 @@
 		6003F593195388D20070C39A /* PXGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				55142ABB1C77C96500A9696D /* Swift */,
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
@@ -209,6 +271,12 @@
 				DB90EA824A06FF7695B80F8F /* Pods-Tests.debug.xcconfig */,
 				21FDF4DDA14A472DFC16BF58 /* Pods-Tests.release.xcconfig */,
 				4393745E6BF6DAA0167326D5 /* Pods-PXGradientView.release.xcconfig */,
+				39AD42A0D36A3153B62EC11A /* Pods-PXGradientViewDemo.debug.xcconfig */,
+				97BCE805605AA575A0D77506 /* Pods-PXGradientViewDemo.release.xcconfig */,
+				A4078256E4D6FA74C447BAA3 /* Pods-PXGradientViewSwiftDemo.debug.xcconfig */,
+				1ECF96FF12F0170B36B28CA2 /* Pods-PXGradientViewSwiftDemo.release.xcconfig */,
+				0F6BDC9A5867356A63EC8332 /* Pods-PXGradientViewSwiftDemoTests.debug.xcconfig */,
+				2A8BCDF058E4027E37CC6615 /* Pods-PXGradientViewSwiftDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -216,6 +284,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B1BB9CF1E4E51F6006BA138 /* PXGradientViewSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1BB9EA1E4E51F6006BA138 /* Build configuration list for PBXNativeTarget "PXGradientViewSwiftDemo" */;
+			buildPhases = (
+				4B0A9DCD7762DAEC5E0D6CAB /* [CP] Check Pods Manifest.lock */,
+				4B1BB9CC1E4E51F6006BA138 /* Sources */,
+				4B1BB9CD1E4E51F6006BA138 /* Frameworks */,
+				4B1BB9CE1E4E51F6006BA138 /* Resources */,
+				98C42222FCB752E74CC451F6 /* [CP] Embed Pods Frameworks */,
+				10CFD4A6978F48FD069B4E4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXGradientViewSwiftDemo;
+			productName = PXGradientViewSwiftDemo;
+			productReference = 4B1BB9D01E4E51F6006BA138 /* PXGradientViewSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B1BB9E21E4E51F6006BA138 /* PXGradientViewSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1BB9ED1E4E51F6006BA138 /* Build configuration list for PBXNativeTarget "PXGradientViewSwiftDemoTests" */;
+			buildPhases = (
+				A94C7DAD0F7E79BF7BB31D1E /* [CP] Check Pods Manifest.lock */,
+				4B1BB9DF1E4E51F6006BA138 /* Sources */,
+				4B1BB9E01E4E51F6006BA138 /* Frameworks */,
+				4B1BB9E11E4E51F6006BA138 /* Resources */,
+				4434B78F91A0349618F8F482 /* [CP] Embed Pods Frameworks */,
+				7E7623270379A6D6F229CE73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1BB9E51E4E51F6006BA138 /* PBXTargetDependency */,
+			);
+			name = PXGradientViewSwiftDemoTests;
+			productName = PXGradientViewSwiftDemoTests;
+			productReference = 4B1BB9E31E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6003F589195388D20070C39A /* PXGradientViewDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PXGradientViewDemo" */;
@@ -264,10 +373,24 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PX;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Daniel Blakemore";
 				TargetAttributes = {
+					4B1BB9CF1E4E51F6006BA138 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B1BB9E21E4E51F6006BA138 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B1BB9CF1E4E51F6006BA138;
+					};
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0820;
+					};
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -287,11 +410,29 @@
 			targets = (
 				6003F589195388D20070C39A /* PXGradientViewDemo */,
 				6003F5AD195388D20070C39A /* Tests */,
+				4B1BB9CF1E4E51F6006BA138 /* PXGradientViewSwiftDemo */,
+				4B1BB9E21E4E51F6006BA138 /* PXGradientViewSwiftDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B1BB9CE1E4E51F6006BA138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1BB9DA1E4E51F6006BA138 /* Assets.xcassets in Resources */,
+				4B1BB9F41E4E5271006BA138 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1BB9E11E4E51F6006BA138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,7 +480,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10CFD4A6978F48FD069B4E4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewSwiftDemo/Pods-PXGradientViewSwiftDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27822824E64046927E8E1979 /* [CP] Embed Pods Frameworks */ = {
@@ -369,7 +525,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientView/Pods-PXGradientView-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewDemo/Pods-PXGradientViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4434B78F91A0349618F8F482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewSwiftDemoTests/Pods-PXGradientViewSwiftDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0A9DCD7762DAEC5E0D6CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7623270379A6D6F229CE73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewSwiftDemoTests/Pods-PXGradientViewSwiftDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C42222FCB752E74CC451F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewSwiftDemo/Pods-PXGradientViewSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94C7DAD0F7E79BF7BB31D1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EEB6BE494B8E895C82B9EFBB /* [CP] Embed Pods Frameworks */ = {
@@ -384,7 +615,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientView/Pods-PXGradientView-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXGradientViewDemo/Pods-PXGradientViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFE46435ED52EFF10DEB992D /* [CP] Check Pods Manifest.lock */ = {
@@ -399,22 +630,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B1BB9CC1E4E51F6006BA138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1BB9F21E4E5234006BA138 /* ViewController.swift in Sources */,
+				4B1BB9F11E4E5234006BA138 /* View.swift in Sources */,
+				4B1BB9F01E4E5234006BA138 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1BB9DF1E4E51F6006BA138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1BB9E81E4E51F6006BA138 /* PXGradientViewSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
-				55142AC11C77C99000A9696D /* View.swift in Sources */,
 				2C63F9E91B33315800296E37 /* PXView.m in Sources */,
-				55142AC21C77C99000A9696D /* ViewController.swift in Sources */,
-				55142AC01C77C99000A9696D /* AppDelegate.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +676,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B1BB9E51E4E51F6006BA138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1BB9CF1E4E51F6006BA138 /* PXGradientViewSwiftDemo */;
+			targetProxy = 4B1BB9E41E4E51F6006BA138 /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* PXGradientViewDemo */;
@@ -457,6 +708,112 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4B1BB9EB1E4E51F6006BA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4078256E4D6FA74C447BAA3 /* Pods-PXGradientViewSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXGradientViewSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PXGradientViewSwiftDemo.PXGradientViewSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXGradientViewSwiftDemo/PXGradientView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B1BB9EC1E4E51F6006BA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECF96FF12F0170B36B28CA2 /* Pods-PXGradientViewSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXGradientViewSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PXGradientViewSwiftDemo.PXGradientViewSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PXGradientViewSwiftDemo/PXGradientView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B1BB9EE1E4E51F6006BA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6BDC9A5867356A63EC8332 /* Pods-PXGradientViewSwiftDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXGradientViewSwiftDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PXGradientViewSwiftDemo.PXGradientViewSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXGradientViewSwiftDemo.app/PXGradientViewSwiftDemo";
+			};
+			name = Debug;
+		};
+		4B1BB9EF1E4E51F6006BA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8BCDF058E4027E37CC6615 /* Pods-PXGradientViewSwiftDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PXGradientViewSwiftDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.PXGradientViewSwiftDemo.PXGradientViewSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXGradientViewSwiftDemo.app/PXGradientViewSwiftDemo";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,14 +827,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -490,7 +852,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,21 +872,27 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -532,7 +900,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9C221E42D667974172DCE8C /* Pods-PXGradientView.debug.xcconfig */;
+			baseConfigurationReference = 39AD42A0D36A3153B62EC11A /* Pods-PXGradientViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -544,15 +912,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PXGradientView/PXGradientView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4393745E6BF6DAA0167326D5 /* Pods-PXGradientView.release.xcconfig */;
+			baseConfigurationReference = 97BCE805605AA575A0D77506 /* Pods-PXGradientViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -564,7 +932,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PXGradientView/PXGradientView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -573,7 +941,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB90EA824A06FF7695B80F8F /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXGradientView.app/PXGradientView";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -588,7 +956,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXGradientViewDemo.app/PXGradientViewDemo";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -597,7 +966,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21FDF4DDA14A472DFC16BF58 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXGradientView.app/PXGradientView";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -608,7 +977,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXGradientViewDemo.app/PXGradientViewDemo";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -616,6 +986,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B1BB9EA1E4E51F6006BA138 /* Build configuration list for PBXNativeTarget "PXGradientViewSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1BB9EB1E4E51F6006BA138 /* Debug */,
+				4B1BB9EC1E4E51F6006BA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1BB9ED1E4E51F6006BA138 /* Build configuration list for PBXNativeTarget "PXGradientViewSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1BB9EE1E4E51F6006BA138 /* Debug */,
+				4B1BB9EF1E4E51F6006BA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "PXGradientView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

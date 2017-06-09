@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "PXGradientView.h"
 
-FOUNDATION_EXPORT double PXGradientViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char PXGradientViewVersionString[];
+FOUNDATION_EXPORT double Pods_PXGradientViewDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_PXGradientViewDemoVersionString[];
 
